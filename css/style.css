@@ -97,7 +97,7 @@
       rgba(34, 34, 34, 0.4),
       rgba(34, 34, 34, 0.4)
     ),
-    url(../img/hero-outside.jpg);
+    url('https://images.unsplash.com/photo-1525193612562-0ec53b0e5d7c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -160,7 +160,7 @@
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url("../img/chef2.jpg");
+    url("https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
