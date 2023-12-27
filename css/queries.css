@@ -1,0 +1,189 @@
+/********** MEDIA QUERIES **********/
+
+/***************************************/
+/* BELOW 1200PX (Landscape tablets) */
+/***************************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .main-nav {
+    gap: 4.8rem;
+  }
+
+  .heading-primary {
+    font-size: 6.4rem;
+  }
+
+  .about-text-box {
+    max-width: 80%;
+  }
+
+  .order-section {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .testimonials-section {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/***************************************/
+/* BELOW 944PX (Tablets) */
+/**************************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  body.fixed {
+    position: fixed;
+  }
+
+  .main-nav-list {
+    display: none;
+    flex-direction: column;
+  }
+
+  .btn-mobile-nav {
+    display: flex;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited:visited {
+    font-size: 3rem;
+  }
+
+  .main-nav {
+    gap: 0;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.4rem;
+  }
+
+  .main-nav.active {
+    background: #292524;
+    height: 100vh;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .main-nav-list.active {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .heading-primary {
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 2.4rem;
+  }
+
+  .search {
+    width: 65%;
+  }
+
+  .about-section {
+    justify-content: center;
+    padding: 9.6rem 2.4rem;
+  }
+
+  .order-section {
+    padding: 9.6rem 1.6rem;
+  }
+
+  .order-img-container {
+    gap: 1.6rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .booking-section {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .booking-img img {
+    width: 100%;
+  }
+
+  .testimonial-section {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .testimonial-slider {
+    width: 100%;
+  }
+}
+
+/***************************************/
+/* BELOW 768PX (Smaller Tablets) */
+/***************************************/
+@media (max-width: 48em) {
+  .heading-primary {
+    font-size: 5.2rem;
+  }
+
+  .about-text-box {
+    max-width: 90%;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .customer-testimonial {
+    max-width: 100%;
+  }
+
+  .footer {
+    padding: 4.8rem;
+  }
+}
+
+/***************************************/
+/* BELOW 544px (Phones) */
+/***************************************/
+
+@media (max-width: 34em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .hero-section {
+    padding: 3.2rem 2.4rem;
+  }
+
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 3.2rem;
+  }
+}

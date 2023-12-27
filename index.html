@@ -1,0 +1,435 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="International Cuisine Cafe" />
+		<meta name="robots" content="noindex"/>	
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap" rel="stylesheet">
+		
+		<link rel="stylesheet" href="css/general.css" />
+		<link rel="stylesheet" href="css/style.css" />	
+		<link rel="stylesheet" href="css/queries.css" />			
+		
+		<title>Artesania Cafe</title>
+	</head>
+	
+	<body>	
+		<header class="header">					
+			<nav class="main-nav ">
+				<div><a class="logo" href="#">Artesania Cafe</a></div>
+
+				<button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+				
+				<div>
+					<ul class="main-nav-list">
+						<li><a class="main-nav-link" href="#">Home</a></li>
+						<li><a class="main-nav-link" href="#about">About Us</a></li>
+						<li><a class="main-nav-link" href="#">Menu</a></li>
+						<li><a class="main-nav-link" href="#booking">Book a table</a></li>					
+						<li><a class="main-nav-link" href="#order">Order Online</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		
+		<main>		
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Welcome to</br> Artesania Cafe</h1>	
+						<form action="#">							
+							<input type="search" id="search" name="search" placeholder="Search for a location" class="search"><!--
+						--><input type="submit" name="submit" value="Search" class="hero-btn">	
+						</form><!--search bar-->
+						
+						<div class="social-container">
+							<div class="social">								
+								<p class="social-count">
+								<ion-icon class="social-icon" name="logo-facebook"></ion-icon> 122k</p>					
+							</div>
+
+							<div class="social">
+								<p class="social-count">
+								<ion-icon class="social-icon" name="logo-twitter"></ion-icon> 64k</p>
+							</div>
+
+							<div class="social">
+								<p class="social-count">
+								<ion-icon class="social-icon" name="logo-instagram"></ion-icon> 60k</p>
+							</div>
+						</div>
+          </div> <!--hero text box-->		
+        </div> <!--hero container-->	
+      </section>		
+    
+			<section id="about" class="about-section">
+				<div class="about-text-box">
+					<span class="heading-label">About Us</span>
+					<h3 class="heading-secondary">Our Story</h3>
+					<p class="about-description1">Our cafe opened in the 60's as a small diner serving breakfast and lunch. Over time we expanded our menu to include diner, entrees, international and healthy dish options.</p>
+					
+					<p class="about-description2">We're continuing to open new locations. We also provide catering services for events including local festivals and activities.</p>
+
+					<a class="about-btn" href="#order">Order Now</a>
+				</div>
+			</section>
+
+			<section class="order-section" id="order">
+				<div class="center order-text-box">
+					<span class="heading-label">Order Now</span>
+					<h2 class="heading-secondary">Our Specialty Dishes</h2>
+				</div>
+					
+				<div class="order-img-container grid grid--4-cols">
+					<div class="order-img">
+						<img src="img/meal-1.jpg" alt="Meal">
+						<div class="overlay"> 
+							<p class="price">&dollar;7.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Entree Platter</p>
+							<a href="#" class="order-btn">Add to cart</a>
+						</div> <!--hover overlay-->
+					</div>	<!--order img-->		
+
+					<div class="order-img">
+						<img src="img/meal-2.jpg" alt="Meal">
+						<div class="overlay">
+							<p class="price">&dollar;6.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Lunch Special</p>  
+							<a href="#" class="order-btn">Add to cart</a>
+						</div> <!--hover overlay-->
+					</div>	<!--order img-->		
+
+					<div class="order-img">
+						<img src="img/meal-3.jpg" alt="Meal">
+						<div class="overlay">
+							<p class="price">&dollar;11.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Breakfast Special</p>  
+							<a href="#" class="order-btn">Add to cart</a>
+						</div>  <!--hover overlay-->
+					</div>		<!--order img-->	
+					
+					<div class="order-img">
+						<img src="img/meal-4.jpg" alt="Meal">
+						<div class="overlay">
+							<p class="price">&dollar;3.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Fruit toast</p>  
+							<a href="#" class="order-btn">Add to cart</a>
+						</div>  <!--hover overlay-->
+					</div>		<!--order img-->		
+					
+					<div class="order-img">
+						<img src="img/meal-5.jpg" alt="Meal">
+						<div class="overlay">
+							<p class="price">&dollar;5.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Shrimp Rolls</p>  
+							<a href="#" class="order-btn">Add to cart</a>
+						</div>  <!--hover overlay-->
+					</div>		<!--order img-->		
+					
+					<div class="order-img">
+						<img src="img/meal-6.jpg" alt="Meal">
+						<div class="overlay">
+							<p class="price">&dollar;9.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Pita Salad Bowl</p>  
+							<a href="#" class="order-btn">Add to cart</a>
+						</div>  <!--hover overlay-->
+					</div>		<!--order img-->
+
+					<div class="order-img">
+						<img src="img/meal-7.jpg" alt="Meal">
+						<div class="overlay">
+							<p class="price">&dollar;3.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Spinach Soup</p>  
+							<a href="#" class="order-btn">Add to cart</a>
+						</div>  <!--hover overlay-->
+					</div>		<!--order img-->
+
+					<div class="order-img">
+						<img src="img/meal-8.jpg" alt="Meal">
+						<div class="overlay">
+							<p class="price">&dollar;4.99</p>
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>							
+							<p class="meal-name">Hummus</p>  
+							<a href="#" class="order-btn">Add to cart</a>
+						</div>  <!--hover overlay-->
+					</div>		<!--order img-->						
+				</div>      <!--img grid-->
+			</section>
+
+			<section class="booking-section" id="booking">
+				<div class="center booking-text-box">
+					<span class="heading-label">Book Table</span>
+					<h2 class="heading-secondary">Opening Hours</h2>
+					<ion-icon class="call-icon" name="call"></ion-icon>
+					<span class="call-label">Call Now</span>
+					<a class="phone-link" href="tel:123-###-####">123-###-###</a>
+					<div><a href="#" class="button-open-modal center booking-btn">Book online</a></div>
+				</div>
+
+				<div class="booking-days-container">
+					<div class="book-days">
+						<p class="days">Monday - Saturday</p>
+						<p class="hours">10am-7pm</p>
+					</div>
+					<div class="book-days">
+						<p class="days">Sunday</p>
+						<p class="hours">11am-6pm</p>
+					</div>
+				</div>
+
+				<div class="booking-img-box">
+					<div class="booking-img">
+						<img src="img/hero-cafe.jpg" alt="Bakery department">
+					</div>							
+				</div>
+			</section>
+
+			<section class="testimonials-section">
+				<div class="center testimonial-header">
+					<span class="heading-label">Testimonials</span>
+					<h2 class="heading-secondary">Customers say</h2>				
+				</div>
+
+				<div class="testimonial-slider">	
+					<div class="testimonial-slide slide-1">
+						<div class="center customer-box">
+							<img src="img/customers/customer-3.jpeg" alt="Customer" class="testimonial-img">
+							<p class="customer-name">John Doe</p>
+							<p class="customer-title">Architect</p>
+			
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>
+			
+							<p class="customer-testimonial">This is my favorite cafe to visit in the area. Their menu offers international dishes and their service is spectacular. It's a great spot to visit during the weekends to enjoy a meal over live music with friends and family. </p>	
+						</div>
+					</div>
+								
+					<div class="testimonial-slide slide-2">
+						<div class="center customer-box">
+							<img src="img/customers/customer-2.jpeg" alt="Customer" class="testimonial-img">
+							<p class="customer-name">Jane Doe</p>
+							<p class="customer-title">Blogger</p>
+			
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>
+			
+							<p class="customer-testimonial">This cafe is one of the best food spots in town. Their international menu options let you experience dishes from all parts of the world.</p>	
+						</div>
+					</div>
+					
+					<div class="testimonial-slide slide-3">					
+						<div class="center customer-box">
+							<img src="img/customers/customer-1.jpeg" alt="Customer" class="testimonial-img">
+							<p class="customer-name">Mr. John Doe</p>
+							<p class="customer-title">Nutritionist</p>
+			
+							<div class="icons">
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+								<ion-icon class="icon" name="star"></ion-icon>
+							</div>
+			
+							<p class="customer-testimonial">This is my favorite place to order lunch from. The location is convenient and their menu options are great. Their delivery service is quick.</p>	
+						</div>
+					</div>				
+					
+					<button class="slider-btn slider-btn-right"><ion-icon class="slider-arrow" name="arrow-forward-circle"></ion-icon></button>
+        	<button class="slider-btn slider-btn-left"><ion-icon class="slider-arrow" name="arrow-back-circle"></ion-icon></button>
+        						
+				</div>
+			</section>
+
+    </main>		
+		
+		<div class="modal hidden">					
+			<form id="booking-form" method="post">				
+				<h3 class="center heading-tertiary">Book a table</h3>				
+				<button class="button-close-modal">&times;</button>										
+				<div class="contact-section">
+					<label for="name" id="name-label">Full Name</label>
+					<input id="name" type="text" placeholder="Enter your name" required />
+	
+					<label for="email" id="email-label">Email address</label>
+					<input id="email" type="email" placeholder="email@address.com" required/>
+					
+					<div class="grid grid--2-cols">
+						<div class="reservation-group">
+							<label for="date">Reservation Date</label>
+							<input id="date" type="date" required />
+						</div>						
+						
+						<div class="reservation-group">
+							<label for="appointment">Choose a time</label>
+							<input id="time" type="time" name="appointment"
+       min="11:00" max="18:00" required>
+						</div>
+					</div>
+					
+
+				</div>
+
+				<label for="dropdown" id="style-label">Setting</label>
+				<div class="style-select-container">					
+					<select id="dropdown" class="style-dropdown">
+						<option class="disabled" disabled selected value="">Select a setting</option>
+						<option value="freestyle" checked>Indoor</option>
+						<option value="modern">Outdoor</option>						
+					</select>
+					<span class="dropdown-arrow"></span>
+				</div>
+				
+				<div class="comment-section">
+					<label for="comment" id="comment-label">Do you need special accommodations?</label>
+					<textarea id="comment" name="comment" rows="3" cols="33" placeholder="Enter your comments here"></textarea>
+				</div>
+	
+				<button id="submit">Submit</button>
+			</form>
+		</div>
+		<div class="modal-overlay hidden"></div>
+
+		<footer class="footer">
+			<div class="footer-wrapper">
+			
+				<div class="social-media">
+					<div class="footer-logo-container">
+						<a class='logo' href='/'>Artesania Cafe</a>
+					</div>
+
+					<ul class="social-icons">
+						<li>
+							<a href="#" class="social-link"><ion-icon class="social-icon" name="logo-youtube"></ion-icon></a>
+						</li>
+						<li>
+							<a href="#" class="social-link"><ion-icon class="social-icon" name="logo-facebook"></ion-icon></a>
+						</li>
+						<li>
+							<a href="#" class="social-link"><ion-icon class="social-icon" name="logo-twitter"></ion-icon></a>
+						</li>
+						<li>
+							<a href="#" class="social-link"><ion-icon class="social-icon" name="logo-instagram"></ion-icon></a>
+						</li>
+					</ul>
+
+					<p class="copyright">&copy; <span class="year"></span> Web Design Method Concept.</p>
+				</div>
+
+				<nav class="footer-col">
+					<p class="footer-subhead">Overview</p>
+					<ul class="footer-nav">					
+						<li><a class="footer-link" href="#about">About Us</a></li>
+						<li><a class="footer-link" href="#">Menu</a></li>
+						<li><a class="footer-link button-open-modal" href="#booking">Book a table</a></li>
+						<li><a class="footer-link" href="#order">Order Online</a></li>
+					</ul>
+				</nav>
+				
+				<div class="contact">
+					<p class="footer-subhead">Contact us</p>
+					<address class="contacts">
+						<p class="address-line-1">
+							1234 Street Name
+						</p>
+						<p class="address-line-2">
+							City, State, 00000
+						</p>
+						<div class="footer-nav">
+							<a href="tel:###-123-###" class="footer-link">###-123-###</a>
+							<a href="#" class="footer-link">mail@website.com</a>
+						</div>
+					</address>
+				</div>
+			</div>
+		</footer>
+
+		<script type="module" 
+		src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js">
+		</script>
+		<script nomodule 
+		src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js">
+		</script>	
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
