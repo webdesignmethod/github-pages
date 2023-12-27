@@ -114,28 +114,3 @@ document.addEventListener("keydown", function (event) {
     closeMobileNav();
   }
 });
-
-///////////////////////////////////////////////////////////
-// Shopping Cart Functionality
-let itemName = document.querySelector(".meal-name");
-let itemPrice = document.querySelector(".price");
-
-let cart = [];
-
-// Function to add an item to the cart
-function addToCart() {
-  // Create an object to represent the item
-  let item = {
-    name: itemName,
-    price: itemPrice,
-  };
-
-  // Add the item to the cart array
-  itemName.cart.push(item);
-}
-
-// Example usage:
-addToCart();
-
-// Display the contents of the cart
-console.log(cart);
